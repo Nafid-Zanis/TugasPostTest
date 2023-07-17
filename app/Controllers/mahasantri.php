@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class mahasantri extends BaseController
+class Mahasantri extends BaseController
 {
     public function hapus($id)
     {
@@ -32,18 +32,26 @@ class mahasantri extends BaseController
             ],
             'nim' => [
                 'label' => 'Nim',
-                'rules' => 'required|min_length[5]',
+                'rules' => 'required|min_length[10]',
                 'errors' => [
                     'required' => '{field} harus diisi',
-                    'min_length' => 'Minimum karakter untuk {field} adalah 5 karakter'
+                    'min_length' => 'Minimum karakter untuk {field} adalah 10 karakter'
                 ]
             ],
             'alamat' => [
                 'label' => 'Alamat',
-                'rules' => 'required|min_length[5]',
+                'rules' => 'required|min_length[3]',
                 'errors' => [
                     'required' => '{field} harus diisi',
-                    'min_length' => 'Minimum karakter untuk {field} adalah 5 karakter'
+                    'min_length' => 'Minimum karakter untuk {field} adalah 3 karakter'
+                ]
+            ],
+            'jurusan' => [
+                'label' => 'Jurusan',
+                'rules' => 'required|min_length[2]',
+                'errors' => [
+                    'required' => '{field} harus diisi',
+                    'min_length' => 'Minimum karakter untuk {field} adalah 2 karakter'
                 ]
             ],
         ];

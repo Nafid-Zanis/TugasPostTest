@@ -19,8 +19,8 @@
     <div class="container">
         <!--Layout Data -->
         <div class="card mb-3">
-            <div class="card-header bg-success text-white">
-                TUGAS CRUD WEB PROGRAMMING CI4
+            <div class="card-header bg-dark text-white text-center">
+                TUGAS PROJEK KELOMPOK WEB PROGRAMMING CI4
             </div>
         </div>
         <!--MODAL-->
